@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital Clock</title>
+    <link rel="stylesheet" href="./css/style/s.css" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+  </head>
+  <body>
+    <video src="./video/istockphoto-1473429567-640_adpp_is.mp4" loop autoplay muted></video>
+    <div class="digital-clock">
+      <div class="clock-top">
+        <h1 id="date"></h1>
+        <i id="dot" class="fa-solid fa-ellipsis-vertical"></i>
+        <ul id="menu" class="menu">
+          <li>
+            <span>24-hour Format</span>
+            <div id="btn" data-format="12"></div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="clock-bottom">
+        <div class="h">
+          <div class="hour" id="hour"></div>
+          <p>Hour</p>
+        </div>
+        <div class="m">
+          <div class="min" id="min"></div>
+          <p>minutes</p>
+        </div>
+        <div class="s">
+          <div class="sec" id="sec"></div>
+          <p>seconds</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/s.js"></script>
+  </body>
+</html>
